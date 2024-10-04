@@ -10,4 +10,4 @@ fzero() may fall back to the bisection method, which guarantees convergence as l
 <b>Secant Method</b>: In cases where two initial points are close together, the secant method can be employed, which uses linear interpolation to find a root.
 
 Overall, fzero() is designed to be robust and efficient, making it suitable for a wide range of nonlinear equations. 
-If you provide an initial guess that is close to the root, it generally converges quickly to the solution.
+If you provide an <em><b>initial guess that is close to the root</b></em>, it generally converges quickly to the solution.
