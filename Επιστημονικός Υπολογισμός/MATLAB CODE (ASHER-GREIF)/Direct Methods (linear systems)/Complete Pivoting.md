@@ -47,29 +47,33 @@ $$
 1 & \frac{1}{2} & \frac{3}{4} \\ 
 2 & 1 & 2 \\ 
 1 & 3 & 1 
-\end{pmatrix}
+\end{pmatrix}, \quad
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 3 \\ 7 \end{pmatrix}
 $$
 
 Next, eliminate the entries below the pivot (i.e., in column 1):
 
 For row 2:
 $$
-R_2 - 2R_1 \Rightarrow \begin{pmatrix} 0 & 0 & \frac{1}{2} \end{pmatrix}
+R_2 - 2R_1 \Rightarrow \begin{pmatrix} 0 & 0 & \frac{1}{2} \end{pmatrix}, \quad
+\mathbf{b}_2 = \begin{pmatrix} -2 \end{pmatrix}
 $$
 
 For row 3:
 $$
-R_3 - R_1 \Rightarrow \begin{pmatrix} 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatrix}
+R_3 - R_1 \Rightarrow \begin{pmatrix} 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatrix}, \quad
+\mathbf{b}_3 = \begin{pmatrix} 4.5 \end{pmatrix}
 $$
 
-The matrix is now:
+The matrix and the vector \( \mathbf{b} \) are now:
 
 $$
 A = \begin{pmatrix} 
 1 & \frac{1}{2} & \frac{3}{4} \\ 
 0 & 0 & \frac{1}{2} \\ 
 0 & \frac{5}{2} & \frac{-1}{4} 
-\end{pmatrix}
+\end{pmatrix}, \quad
+\mathbf{b} = \begin{pmatrix} 2.5 \\ -2 \\ 4.5 \end{pmatrix}
 $$
 
 ### Step 3: Pivot on the next largest element
@@ -82,13 +86,8 @@ A = \begin{pmatrix}
 1 & \frac{3}{4} & \frac{1}{2} \\ 
 0 & \frac{-1}{4} & \frac{5}{2} \\ 
 0 & \frac{1}{2} & 0 
-\end{pmatrix}
-$$
-
-Update \( \mathbf{b} \):
-
-$$
-\mathbf{b} = \begin{pmatrix} 10 \\ 7 \\ 3 \end{pmatrix}
+\end{pmatrix}, \quad
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 4.5 \\ -2 \end{pmatrix}
 $$
 
 ### Step 4: Continue elimination
@@ -97,7 +96,8 @@ Perform Gaussian elimination on the \(2 \times 2\) submatrix to make it upper tr
 For row 3:
 
 $$
-R_3 - 2 \times R_2 \Rightarrow \begin{pmatrix} 0 & 0 & -2 \end{pmatrix}
+R_3 - 2 \times R_2 \Rightarrow \begin{pmatrix} 0 & 0 & -2 \end{pmatrix}, \quad
+\mathbf{b}_3 = \begin{pmatrix} 3 \end{pmatrix}
 $$
 
 Now the matrix is upper triangular:
@@ -107,7 +107,8 @@ A = \begin{pmatrix}
 1 & \frac{3}{4} & \frac{1}{2} \\ 
 0 & 1 & -2 \\ 
 0 & 0 & -2 
-\end{pmatrix}
+\end{pmatrix}, \quad
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 4.5 \\ 3 \end{pmatrix}
 $$
 
 ### Step 5: Back-substitution
@@ -122,13 +123,13 @@ $$
 2. From the second equation:
 
 $$
-y - 2(-1.5) = 7 \Rightarrow y = 4
+y - 2(-1.5) = 4.5 \Rightarrow y = 4
 $$
 
 3. From the first equation:
 
 $$
-x + \frac{3}{4}(4) + \frac{1}{2}(-1.5) = 10 \Rightarrow x = 2
+x + \frac{3}{4}(4) + \frac{1}{2}(-1.5) = 2.5 \Rightarrow x = 2
 $$
 
 Thus, the solution to the system is:
