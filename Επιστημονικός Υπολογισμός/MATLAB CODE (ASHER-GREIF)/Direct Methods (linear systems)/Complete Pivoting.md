@@ -24,6 +24,7 @@ A = \begin{pmatrix}
                             7 \\ 
                             10 \end{pmatrix}
 $$
+<br>
 We aim to solve for x using complete pivoting.
 
 ### Step 1: Find the largest element in the matrix \( A \)
