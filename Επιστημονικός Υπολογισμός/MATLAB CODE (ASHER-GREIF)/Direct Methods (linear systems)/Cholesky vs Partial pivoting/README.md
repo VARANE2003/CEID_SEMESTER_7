@@ -4,8 +4,7 @@
 Τα υπόλοιπα αρχεία αποτελούν ορισμούς συναρτήσεων.
 
 # Αποτελέσματα (cmd output):
-
-cholesky_vs_partial_piv     
+   
 Σφάλμα Cholesky:
 
 rerx =
