@@ -28,7 +28,9 @@ A = \begin{pmatrix}
 $$
 
 
-We aim to solve for \( \mathbf{x} \) using complete pivoting.
+We aim to solve for 
+\( \mathbf{x} \) 
+using complete pivoting.
 
 
 ### Step 1: Find the largest element in the matrix \( A \)
