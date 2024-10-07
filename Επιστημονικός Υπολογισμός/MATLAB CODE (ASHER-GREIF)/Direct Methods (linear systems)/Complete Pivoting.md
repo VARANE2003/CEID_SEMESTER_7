@@ -27,6 +27,7 @@ $$
 At the beginning, the entire matrix is considered. The largest element in absolute value is \( 4 \) in position \( A_{3,3} \). We will swap the 3rd row with the 1st row, and the 3rd column with the 1st column to bring this element to the top-left.
 
 After the swaps:
+
 $$
 A = \begin{pmatrix}
 4 & 2 & 3 \\
@@ -42,7 +43,11 @@ Note: The variables \(x_1, x_2, x_3\) now correspond to the columns after the sw
 We now use Gaussian elimination to reduce the matrix. First, normalize the first row by dividing by the pivot \(4\).
 
 $$
-\frac{1}{4} R_1 \Rightarrow \begin{pmatrix} 1 & \frac{1}{2} & \frac{3}{4} \\ 2 & 1 & 2 \\ 1 & 3 & 1 \end{pmatrix}
+\frac{1}{4} R_1 \Rightarrow \begin{pmatrix} 
+1 & \frac{1}{2} & \frac{3}{4} \\ 
+2 & 1 & 2 \\ 
+1 & 3 & 1 
+\end{pmatrix}
 $$
 
 Next, eliminate the entries below the pivot (i.e., in column 1):
@@ -58,19 +63,30 @@ R_3 - R_1 \Rightarrow \begin{pmatrix} 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatri
 $$
 
 The matrix is now:
+
 $$
-A = \begin{pmatrix} 1 & \frac{1}{2} & \frac{3}{4} \\ 0 & 0 & \frac{1}{2} \\ 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatrix}
+A = \begin{pmatrix} 
+1 & \frac{1}{2} & \frac{3}{4} \\ 
+0 & 0 & \frac{1}{2} \\ 
+0 & \frac{5}{2} & \frac{-1}{4} 
+\end{pmatrix}
 $$
 
 ### Step 3: Pivot on the next largest element
 Now, focus on the \(2 \times 2\) submatrix at the bottom-right. The largest element is \( \frac{5}{2} \) in \( A_{3,2} \). Swap row 2 with row 3, and column 2 with column 3.
 
 After the swaps:
+
 $$
-A = \begin{pmatrix} 1 & \frac{3}{4} & \frac{1}{2} \\ 0 & \frac{-1}{4} & \frac{5}{2} \\ 0 & \frac{1}{2} & 0 \end{pmatrix}
+A = \begin{pmatrix} 
+1 & \frac{3}{4} & \frac{1}{2} \\ 
+0 & \frac{-1}{4} & \frac{5}{2} \\ 
+0 & \frac{1}{2} & 0 
+\end{pmatrix}
 $$
 
 Update \( \mathbf{b} \):
+
 $$
 \mathbf{b} = \begin{pmatrix} 10 \\ 7 \\ 3 \end{pmatrix}
 $$
@@ -79,34 +95,44 @@ $$
 Perform Gaussian elimination on the \(2 \times 2\) submatrix to make it upper triangular.
 
 For row 3:
+
 $$
 R_3 - 2 \times R_2 \Rightarrow \begin{pmatrix} 0 & 0 & -2 \end{pmatrix}
 $$
 
 Now the matrix is upper triangular:
+
 $$
-A = \begin{pmatrix} 1 & \frac{3}{4} & \frac{1}{2} \\ 0 & 1 & -2 \\ 0 & 0 & -2 \end{pmatrix}
+A = \begin{pmatrix} 
+1 & \frac{3}{4} & \frac{1}{2} \\ 
+0 & 1 & -2 \\ 
+0 & 0 & -2 
+\end{pmatrix}
 $$
 
 ### Step 5: Back-substitution
 Now that we have an upper triangular system, we can solve by back-substitution.
 
 1. From the third equation:
+
 $$
 -2 z = 3 \Rightarrow z = -1.5
 $$
 
 2. From the second equation:
+
 $$
 y - 2(-1.5) = 7 \Rightarrow y = 4
 $$
 
 3. From the first equation:
+
 $$
 x + \frac{3}{4}(4) + \frac{1}{2}(-1.5) = 10 \Rightarrow x = 2
 $$
 
 Thus, the solution to the system is:
+
 $$
 x = 2, \quad y = 4, \quad z = -1.5
 $$
