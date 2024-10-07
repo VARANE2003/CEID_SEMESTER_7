@@ -20,9 +20,7 @@ A = \begin{pmatrix}
 1 & 3 & 2 \\
 3 & 2 & 4
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 3 \\ 
-                             7 \\ 
-                             10 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 3 \\ 7 \\ 10 \end{pmatrix}
 $$
 
 ### Step 1: Find the largest element in the matrix \( A \)
@@ -36,9 +34,7 @@ A = \begin{pmatrix}
 2 & 1 & 2 \\
 1 & 3 & 1
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 10 \\ 
-                             3 \\ 
-                             7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 10 \\ 3 \\ 7 \end{pmatrix}
 $$
 
 Note: The variables \(x_1, x_2, x_3\) now correspond to the columns after the swaps.
@@ -52,23 +48,23 @@ $$
 2 & 1 & 2 \\ 
 1 & 3 & 1 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ 
-                             3 \\ 
-                             7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 3 \\ 7 \end{pmatrix}
 $$
 
 Next, eliminate the entries below the pivot (i.e., in column 1):
 
 For row 2:
+
 $$
 R_2 - 2R_1 \Rightarrow \begin{pmatrix} 0 & 0 & \frac{1}{2} \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} -2 \\ 3 \end{pmatrix}
+\mathbf{b}_2 = 3 - 2(2.5) = -2
 $$
 
 For row 3:
+
 $$
 R_3 - R_1 \Rightarrow \begin{pmatrix} 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 4.5 \end{pmatrix}
+\mathbf{b}_3 = 7 - 1(2.5) = 4.5
 $$
 
 The matrix and the vector \( \mathbf{b} \) are now:
@@ -103,7 +99,7 @@ For row 3:
 
 $$
 R_3 - 2 \times R_2 \Rightarrow \begin{pmatrix} 0 & 0 & -2 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 3 \end{pmatrix}
+\mathbf{b}_3 = -2 - 2(4.5) = 3
 $$
 
 Now the matrix is upper triangular:
