@@ -36,7 +36,9 @@ A = \begin{pmatrix}
 2 & 1 & 2 \\
 1 & 3 & 1
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 10 \\ 3 \\ 7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 10 \\ 
+                             3 \\ 
+                             7 \end{pmatrix}
 $$
 
 Note: The variables \(x_1, x_2, x_3\) now correspond to the columns after the swaps.
@@ -50,7 +52,9 @@ $$
 2 & 1 & 2 \\ 
 1 & 3 & 1 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ 3 \\ 7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 
+                             3 \\ 
+                             7 \end{pmatrix}
 $$
 
 Next, eliminate the entries below the pivot (i.e., in column 1):
