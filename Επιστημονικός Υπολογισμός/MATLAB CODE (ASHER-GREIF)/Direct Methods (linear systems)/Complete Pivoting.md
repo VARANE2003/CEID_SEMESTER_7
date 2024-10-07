@@ -13,7 +13,6 @@ $$
 $$
 
 We can write this system in matrix form \( A \mathbf{x} = \mathbf{b} \):
-We aim to solve for x using complete pivoting.
 
 $$
 A = \begin{pmatrix}
@@ -21,10 +20,15 @@ A = \begin{pmatrix}
 1 & 3 & 2 \\
 3 & 2 & 4
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 3 \\ 
-                             7 \\ 
-                             10 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 
+3 \\ 
+7 \\ 
+10 
+\end{pmatrix}
 $$
+
+
+We aim to solve for \( \mathbf{x} \) using complete pivoting.
 
 
 ### Step 1: Find the largest element in the matrix \( A \)
