@@ -21,7 +21,8 @@ A = \begin{pmatrix}
 3 & 2 & 4
 \end{pmatrix}, \quad
 \mathbf{b} = \begin{pmatrix} 3 \\ 
-                             7 \\ 10 \end{pmatrix}
+                             7 \\ 
+                             10 \end{pmatrix}
 $$
 
 ### Step 1: Find the largest element in the matrix \( A \)
