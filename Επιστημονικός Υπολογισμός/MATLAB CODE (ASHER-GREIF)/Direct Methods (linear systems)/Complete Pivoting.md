@@ -56,13 +56,13 @@ Next, eliminate the entries below the pivot (i.e., in column 1):
 For row 2:
 $$
 R_2 - 2R_1 \Rightarrow \begin{pmatrix} 0 & 0 & \frac{1}{2} \end{pmatrix}, \quad
-\mathbf{b}_2 = \begin{pmatrix} -2 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} -2 \\ 3 \end{pmatrix}
 $$
 
 For row 3:
 $$
 R_3 - R_1 \Rightarrow \begin{pmatrix} 0 & \frac{5}{2} & \frac{-1}{4} \end{pmatrix}, \quad
-\mathbf{b}_3 = \begin{pmatrix} 4.5 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 4.5 \end{pmatrix}
 $$
 
 The matrix and the vector \( \mathbf{b} \) are now:
@@ -97,7 +97,7 @@ For row 3:
 
 $$
 R_3 - 2 \times R_2 \Rightarrow \begin{pmatrix} 0 & 0 & -2 \end{pmatrix}, \quad
-\mathbf{b}_3 = \begin{pmatrix} 3 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 3 \end{pmatrix}
 $$
 
 Now the matrix is upper triangular:
