@@ -1,1 +1,3 @@
-
+- Partial pivoting 
+- Cholesky
+- Complete pivoting
