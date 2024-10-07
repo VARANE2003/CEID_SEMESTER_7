@@ -1,3 +1,6 @@
+- Forward Substitution
+- Backward Substitution
+- LU Decomposition with Permutation matrix
 - Partial pivoting 
 - Cholesky
 - Complete pivoting
