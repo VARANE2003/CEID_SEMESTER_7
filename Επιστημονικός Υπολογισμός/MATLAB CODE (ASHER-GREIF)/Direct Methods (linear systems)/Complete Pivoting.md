@@ -24,6 +24,7 @@ A = \begin{pmatrix}
                              7 \\ 
                              10 \end{pmatrix}
 $$
+We aim to solve for x using complete pivoting.
 
 ### Step 1: Find the largest element in the matrix \( A \)
 At the beginning, the entire matrix is considered. The largest element in absolute value is \( 4 \) in position \( A_{3,3} \). We will swap the 3rd row with the 1st row, and the 3rd column with the 1st column to bring this element to the top-left.
