@@ -28,10 +28,9 @@ A = \begin{pmatrix}
 $$
 
 
-We aim to solve for \( \mathbf{x} \) using complete pivoting:
-$$
-\mathbf{x} = A^{-1} \mathbf{b}
-$$
+We aim to solve for $\( \mathbf{x} \)$ using complete pivoting:
+
+
 
 
 ### Step 1: Find the largest element in the matrix \( A \)
