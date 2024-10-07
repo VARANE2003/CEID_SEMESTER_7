@@ -20,7 +20,9 @@ A = \begin{pmatrix}
 1 & 3 & 2 \\
 3 & 2 & 4
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 3 \\ 7 \\ 10 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 3 \\ 
+                            7 \\ 
+                            10 \end{pmatrix}
 $$
 
 ### Step 1: Find the largest element in the matrix \( A \)
@@ -34,7 +36,9 @@ A = \begin{pmatrix}
 2 & 1 & 2 \\
 1 & 3 & 1
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 10 \\ 3 \\ 7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 10 \\ 
+                            3 \\ 
+                            7 \end{pmatrix}
 $$
 
 Note: The variables \(x_1, x_2, x_3\) now correspond to the columns after the swaps.
@@ -48,7 +52,9 @@ $$
 2 & 1 & 2 \\ 
 1 & 3 & 1 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ 3 \\ 7 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 
+                                3 \\ 
+                                7 \end{pmatrix}
 $$
 
 Next, eliminate the entries below the pivot (i.e., in column 1):
@@ -75,7 +81,9 @@ A = \begin{pmatrix}
 0 & 0 & \frac{1}{2} \\ 
 0 & \frac{5}{2} & \frac{-1}{4} 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ -2 \\ 4.5 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 
+                            -2 \\ 
+                            4.5 \end{pmatrix}
 $$
 
 ### Step 3: Pivot on the next largest element
@@ -89,7 +97,9 @@ A = \begin{pmatrix}
 0 & \frac{-1}{4} & \frac{5}{2} \\ 
 0 & \frac{1}{2} & 0 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ 4.5 \\ -2 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 
+                            4.5 \\ 
+                            -2 \end{pmatrix}
 $$
 
 ### Step 4: Continue elimination
@@ -110,7 +120,9 @@ A = \begin{pmatrix}
 0 & 1 & -2 \\ 
 0 & 0 & -2 
 \end{pmatrix}, \quad
-\mathbf{b} = \begin{pmatrix} 2.5 \\ 4.5 \\ 3 \end{pmatrix}
+\mathbf{b} = \begin{pmatrix} 2.5 \\ 
+                            4.5 \\ 
+                            3 \end{pmatrix}
 $$
 
 ### Step 5: Back-substitution
