@@ -28,7 +28,7 @@ A = \begin{pmatrix}
 $$
 
 
-We aim to solve for $\( \mathbf{x} \)$ using complete pivoting:
+We aim to solve for $\mathbf{x}\$ using complete pivoting:
 
 
 
