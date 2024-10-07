@@ -5,7 +5,7 @@
 
 # Αποτελέσματα (cmd output):
 
->> cholesky_vs_partial_piv     <br>  
+cholesky_vs_partial_piv     
 Σφάλμα Cholesky:
 
 rerx =
