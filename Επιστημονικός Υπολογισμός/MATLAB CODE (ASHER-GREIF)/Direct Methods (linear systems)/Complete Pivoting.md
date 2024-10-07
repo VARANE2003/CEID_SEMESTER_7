@@ -21,8 +21,8 @@ A = \begin{pmatrix}
 3 & 2 & 4
 \end{pmatrix}, \quad
 \mathbf{b} = \begin{pmatrix} 3 \\ 
-                            7 \\ 
-                            10 \end{pmatrix}
+                             7 \\ 
+                             10 \end{pmatrix}
 $$
 <br>
 We aim to solve for x using complete pivoting.
