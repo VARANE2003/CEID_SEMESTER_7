@@ -7,6 +7,7 @@
 
        https://www.cs.ubc.ca/~mitchell/matlabResources.html
 
-- My Youtube Playlist about Scientific Computing:
+- My Youtube Playlists about Scientific Computing:
 
-       https://www.youtube.com/playlist?list=PL4jtaQL1yNysyyod0VryENKf5eZTwlWz4
+          https://www.youtube.com/playlist?list=PL4jtaQL1yNysyyod0VryENKf5eZTwlWz4
+       
